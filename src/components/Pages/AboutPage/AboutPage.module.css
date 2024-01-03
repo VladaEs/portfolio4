@@ -1,0 +1,30 @@
+.pageWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    height: 100vh;
+    
+    
+}
+.ImgDescr{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    gap: 5px;
+    justify-items: center;
+}
+
+@media screen and (max-width:900px){
+    .ImgDescr{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        gap: 5px;
+        
+    }
+}

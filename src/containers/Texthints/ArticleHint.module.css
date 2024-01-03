@@ -1,0 +1,25 @@
+.ArticleHint{
+    position: relative;
+    font-family: var(--fontHandwrite);
+    font-size: 20px;
+    z-index: 50;
+    width: 500px;
+    color:#744848;
+}
+
+@media screen and (max-width:510px) {
+    .ArticleHint{
+        width: 350px;
+        text-wrap: wrap;
+    }
+}
+
+
+/* .ArticleHint{
+    position: relative;
+    font-family: var(--fontBricolage);
+    font-size: 13px;
+    z-index: 50;
+    width: 450px;
+    color:#744848;
+} */

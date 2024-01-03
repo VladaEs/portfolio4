@@ -1,0 +1,76 @@
+.MainPageWrapper{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    display: block;
+    background-color: var(--background);
+    box-sizing: border-box;
+    padding-top: 15px; 
+}
+
+
+.ArticlePosition{
+    position: relative;
+    margin-top: 1%;
+    margin-left: 45%;
+}
+
+.LineBottom{
+    position: relative;
+    margin-top: 10px;
+}
+.ArticlePosition2{
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+    .ArticlePosition{
+        position: relative;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+    .LineBottom{
+        position: relative;
+        margin-top: 10px;
+    }
+    .ArticlePosition2{
+        margin-top: 7%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .MenuPages{
+        position: relative;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width:715px) {
+    .MenuPages{
+        position: relative;
+        margin-top: 10%;
+    }
+    .ArticlePosition2{
+        margin-top: 25%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+}
+@media screen and (max-width:400px) {
+    .ArticlePosition2{
+        margin-top: 40%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

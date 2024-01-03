@@ -1,0 +1,38 @@
+.TextWrapper{
+    font-family: var(--fontBrygada);
+    position: relative;
+}
+
+.controls{
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    font-size: 40px;
+
+}
+.controls ul{
+    display: flex;
+    flex-direction: row ;
+    gap: 15px;
+}
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: calc(12px + 2vw);
+    text-transform: uppercase;
+    
+}
+.description{
+    font-size: calc(10px + 1vw);
+    height: 150px;
+}
+.active{
+    transition: .3s;
+    color:#fff;
+}
+@media screen and (max-width:900px){
+    .TextWrapper{
+        order: 1;    
+    }
+}

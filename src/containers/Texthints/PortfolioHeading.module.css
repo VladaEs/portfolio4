@@ -1,0 +1,11 @@
+.Heading{
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-size:calc(20px + 2vw);
+    font-family:var(--fontBrygada);
+    display: flex;
+    justify-content: center;
+    margin-top:3%
+
+}

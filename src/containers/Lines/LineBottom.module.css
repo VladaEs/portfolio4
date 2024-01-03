@@ -1,0 +1,8 @@
+.LinePage{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 3px;
+    background: #000;
+    bottom: 10px;
+}

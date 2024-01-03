@@ -1,0 +1,9 @@
+.LinePage{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    
+    height: 3px;
+    background: #000;
+    position: relative;
+}
