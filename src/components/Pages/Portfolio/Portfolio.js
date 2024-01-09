@@ -15,9 +15,11 @@ const Portfolio = ()=>{
 
     ]
     const ReactJs=[
-        {img:"images/projects/react/todoApp.png" ,name:"React to-do app", description:"It is my first react app. I used here 'UseState' and props. It's just my first project and further more", repo: "https://github.com/VladaEs/GradientDesign3", view:"https://vladaes.github.io/GradientDesign3/"},
+        {img:"images/projects/react/phantom.png" ,name:"Commercial project", description:"This website was built for a customer on freelance, i have used 123-reg domain to host this website and i had an experience with using ftp connections", repo: "https://phantomgunsmiths.co.uk/", view:"https://phantomgunsmiths.co.uk/"},
+        {img:"images/projects/react/todoApp.png" ,name:"React to-do app", description:"It is my first react app. I used here 'UseState' and props. It's just my first project and further more", repo: "https://github.com/VladaEs/React-app", view:"https://vladaes.github.io/React-app/"},
         {img:"images/projects/react/ChinaCart.png" ,name:"Online store`s cart", description:"I have created a cafe's page for ordering food. I have used useContext, useState, useRef, useEffect. In short, all useful hooks", repo: "https://github.com/VladaEs/chinacartreact", view:"https://vladaes.github.io/chinacartreact/"},
         {img:"images/projects/react/GradientDesign.png" ,name:"Ready to go gradient website", description:"I built a fully responsive landing page using React. I used the useState and useEffect hooks here.", repo: "https://github.com/VladaEs/GradientDesign3", view:"https://vladaes.github.io/GradientDesign3/"},
+        
         
     ]
 
