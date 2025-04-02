@@ -1,5 +1,6 @@
 import styles from './SectionMenu.module.css'
 import { Link } from 'react-router-dom';
+import arrowWhite from '../../images/arrow_white.png'
 const SectionMenu =(props)=>{
 
     return(
@@ -7,7 +8,7 @@ const SectionMenu =(props)=>{
         <div className={`${styles.MenuSection}  ${props.length - props.index>=2? styles.MenuUnderscore:''}`}>
             
         {props.item.name}
-            <img src='images/arrow_white.png' className={styles.arrow} />
+            <img src={arrowWhite} className={styles.arrow} />
             </div>
             </Link>
     )
