@@ -5,12 +5,20 @@ import TextWrapper from './TextWrapper/TextWrapper';
 import Backgroung from '../../../containers/Background/background';
 import { Link } from 'react-router-dom';
 const AboutPage = ()=>{
-    const TextData=[
-        {title: "About me", description:"I am a highly motivated student who is currently pursuing a master's degree in IT. My university gives me a solid foundation in the math, written communication and digital marketing skills ."},
-        {title: "My skills", description:"I am actively mastering C++ with a focus on object-oriented programming, while also delving into web development through JavaScript with expertise in React and Next.js. Additionally, I am proficient in PHP, and have a solid foundation in HTML, CSS, and vanilla JavaScript."},
-        {title: "What I am looking for", description:"As a junior React developer entering the workforce, I am eager to join a collaborative team that values continuous learning, offers challenging projects, and provides mentorship opportunities. I seek an environment that fosters growth, embraces diversity, and fuels innovation in web development."},
-
-    ]
+    const TextData = [
+        {
+            title: "About Me",
+            description: "I am a Full Stack Developer with hands-on experience in web development and IT support. Currently based in the UK, I have a strong foundation in front-end and back-end technologies, including React.js, Laravel, and PHP. Passionate about problem-solving and continuous learning, I thrive in dynamic environments where I can contribute to innovative projects."
+        },
+        {
+            title: "My Skills",
+            description: "I have expertise in building and optimizing web applications using React.js, Next.js, and Tailwind CSS for front-end development. On the back end, I work with PHP, Laravel, Node.js, and MySQL. I am also skilled in C++, Python, and Docker, with experience managing Linux servers and developing RESTful APIs."
+        },
+        {
+            title: "What I Am Looking For",
+            description: "As a Full Stack Developer, I am eager to join a team that values innovation and collaboration. I seek opportunities where I can apply my technical skills, contribute to impactful projects, and continue growing as a developer. I am particularly interested in roles that involve web application development, system optimization, and problem-solving in a fast-paced environment."
+        }
+    ];
 
     return(
     <div className={styles.pageWrapper}>
