@@ -24,7 +24,7 @@ const Portfolio = ()=>{
     const ReactJs=[
         {img:pasteBin ,name:"Pastebin Clone – Laravel-Based Text Sharing Platform", 
             description:"I built a fully functional Pastebin clone using the Laravel framework, enabling users to paste, store, and share text snippets effortlessly. The platform supports syntax highlighting, expiration settings, and privacy controls (public, unlisted, private pastes). To ensure optimal performance, I implemented a cron job for automatic cleanup of expired pastes. The project follows best practices in security, authentication, and database management, delivering a seamless user experience. Tech Stack: Laravel, MySQL, Blade Templates, JavaScript",
-             repo: "https://github.com/VladaEs/pasteBin", view:"https://codeforge.org.uk/"},
+             repo: "https://github.com/VladaEs/pasteBin", view:"https://pastebin.codeforge.org.uk/"},
         {img:phantomGunImg ,name:"Commercial project", description:"This website was built for a customer on freelance, i have used 123-reg domain to host this website and i had an experience with using ftp connections", repo: "https://phantomgunsmiths.co.uk/", view:"https://phantomgunsmiths.co.uk/"},
         {img:gradientDesign ,name:"Ready to go gradient website", description:"I built a fully responsive landing page using React. I used the useState and useEffect hooks here.", repo: "https://github.com/VladaEs/GradientDesign3", view:"https://vladaes.github.io/GradientDesign3/"},  
         {img:todoApp ,name:"React to-do app", description:"It is my first react app. I used here 'UseState' and props. It's just my first project and further more", repo: "https://github.com/VladaEs/React-app", view:"https://vladaes.github.io/React-app/"},
